@@ -58,10 +58,12 @@
             </div> <!-- end twelve columns-->
 
         </div> <!-- end row -->
+        <?php if ( $kreo_options->getOption( 'kreo_about_front_display' ) ) : ?>
+            <div id="more">
+                <a class="smoothscroll" href="#services">More About Us<i class="fa fa-angle-down"></i></a>
+            </div>
+        <?php endif; ?>
 
-        <div id="more">
-            <a class="smoothscroll" href="#services">More About Us<i class="fa fa-angle-down"></i></a>
-        </div>
 
     </section> <!-- end homepage hero -->
 
